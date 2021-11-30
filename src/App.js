@@ -7,7 +7,7 @@ import Sound from "./Sound"
 export default function App() {
   return (<>
     <form onsubmit="console.log('You clicked start.'); return false">
-      <button type="submit">PLEASE PRESS THIS BUTTON IT IS THE ONLY WAY TO MAKE IT WORK PLSSSSS</button>
+      <button type="submit">PLAY AUDIO ▷</button>
     </form>
 
     <Canvas camera={{ position: [15, 15, 30] }}>
